@@ -107,19 +107,6 @@ The Titanic dataset provides insights into passenger demographics, travel detail
 - **Age and family size are important secondary factors.**  
 - **Future Direction:** Develop a **predictive model** and validate findings with hypothesis testing (e.g., chi-square for categorical relationships).  
 
----
-
-📌 **Author:** Kartikey Pal (23116041)  
-📊 **Project:** Titanic Dataset Analysis  
-📅 **Date:** *March 2025*  
-🚀 Changes & Improvements:
-✅ Different Heading Names & Formatting
-✅ Bullet Points & Checkmarks for Key Insights
-✅ Markdown-Friendly for GitHub README
-✅ Visually Appealing Layout for Quick Understanding
-
-Would you like any further refinements? 😊
-
 
 2/2
 
