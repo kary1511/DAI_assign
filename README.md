@@ -2,10 +2,10 @@
 # Titanic Dataset Cleaning & Analysis  
 **By Kartikey Pal (23116041)**  
 
-## 📌 Introduction  
+## Introduction  
 The Titanic dataset provides insights into passenger demographics, travel details, and survival rates. This report analyzes the dataset to identify patterns and trends in survival probabilities based on different features.  
 
-## 📂 Dataset Overview  
+##  Dataset Overview  
 - **Total Records:** 891 passengers  
 - **Target Feature:** `survived` (0 = No, 1 = Yes)  
 - **Feature Categories:**  
@@ -14,7 +14,7 @@ The Titanic dataset provides insights into passenger demographics, travel detail
   - **Travel Details:** `embarked`, `alone`, `sibsp`, `parch`  
   - **Survival Indicators:** `survived`, `alive`, `deck`  
 
-## 🛠️ Data Cleaning  
+## Data Cleaning  
 ### Handling Missing Values  
 - `age`: 20% missing → Filled with median (29.36 years)  
 - `deck`: 77% missing → Dropped due to excessive missingness  
@@ -26,7 +26,7 @@ The Titanic dataset provides insights into passenger demographics, travel detail
 ### Outliers  
 - **`age` & `fare`** had extreme values but were retained as they represent valid cases.  
 
-## 📊 Data Distribution Analysis  
+##  Data Distribution Analysis  
 ### Demographics  
 - **Gender:** 62% male, 38% female  
 - **Age Distribution:** Mean = **29.4 years**, majority aged **21–36**  
@@ -52,13 +52,13 @@ The Titanic dataset provides insights into passenger demographics, travel detail
   - 8% Queenstown  
 - **Solo Travelers:** 60% of passengers traveled alone  
 
-## 🎯 Factors Affecting Survival  
+## Factors Affecting Survival  
 ### **Survival by Gender**  
-✅ Women and children had significantly higher survival rates than men.  
-✅ The `who` column confirms gender-based survival disparity.  
+Women and children had significantly higher survival rates than men.  
+The `who` column confirms gender-based survival disparity.  
 
 ### **Survival by Class**  
-✅ First-Class passengers had the highest survival rate.  
+First-Class passengers had the highest survival rate.  
 
 ### **Fare Influence**  
 ✅ Higher fares correlate with better survival chances, as wealthier passengers had priority access to lifeboats.  
@@ -74,32 +74,32 @@ The Titanic dataset provides insights into passenger demographics, travel detail
   - **Negative correlation** between `pclass` and `survived`  
   - **Positive correlation** between `fare` and `survived`  
 
-## 📊 Key Visualizations & Trends  
+## Key Visualizations & Trends  
 (Visualizations assumed based on analysis)  
 - **Class vs. Survival:** Higher-class passengers had better survival rates.  
 - **Gender vs. Survival:** Women outlived men significantly.  
 - **Age Distribution:** Peaks at childhood (0–10) and adulthood (20–40).  
 - **Fare & Survival:** Expensive tickets linked to survival.  
 
-## ⚠️ Challenges & Limitations  
+## Challenges & Limitations  
 - **Data Gaps:** High missing values in `deck`, some in `age`.  
 - **Duplicate Removal:** May remove passengers from the same group.  
 - **Outliers:** Extreme values for `fare` and `age` retained but could affect modeling.  
 - **Categorical Encoding:** Features like `embarked`, `who`, and `class` need transformation for ML models.  
 
-## 🚀 Suggested Enhancements  
+## Suggested Enhancements  
 ### **Feature Engineering**  
-✅ Create `family_size = sibsp + parch`  
-✅ Bin `age` into categories (`child`, `adult`, `senior`)  
-✅ Encode categorical features for predictive modeling  
+Create `family_size = sibsp + parch`  
+Bin `age` into categories (`child`, `adult`, `senior`)  
+Encode categorical features for predictive modeling  
 
 ### **Predictive Modeling**  
-✅ Apply **logistic regression** or **decision trees** for survival prediction  
-✅ Use `pclass`, `sex`, `fare`, and `age` as key predictors  
+Apply **logistic regression** or **decision trees** for survival prediction  
+Use `pclass`, `sex`, `fare`, and `age` as key predictors  
 
 ### **Further Research**  
-✅ Investigate the impact of `embark_town`  
-✅ Examine the effects of traveling **alone vs. with family**  
+Investigate the impact of `embark_town`  
+Examine the effects of traveling **alone vs. with family**  
 
 ## 🏁 Final Thoughts  
 - **Women, children, and First-Class passengers had the highest survival rates.**  
