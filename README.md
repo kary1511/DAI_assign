@@ -101,7 +101,7 @@ Use `pclass`, `sex`, `fare`, and `age` as key predictors
 Investigate the impact of `embark_town`  
 Examine the effects of traveling **alone vs. with family**  
 
-## 🏁 Final Thoughts  
+## Final Thoughts  
 - **Women, children, and First-Class passengers had the highest survival rates.**  
 - **High fares and embarkation from Cherbourg correlate with survival.**  
 - **Age and family size are important secondary factors.**  
