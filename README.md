@@ -108,7 +108,6 @@ Examine the effects of traveling **alone vs. with family**
 - **Future Direction:** Develop a **predictive model** and validate findings with hypothesis testing (e.g., chi-square for categorical relationships).  
 
 
-2/2
 
 
 
